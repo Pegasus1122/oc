@@ -1,0 +1,117 @@
+<html><head>
+    <title>Photo Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<ul class="menu">
+<li class="links"><a href="#home">Home</a></li>
+<li class="links"><a href="#grid">Grid View</a></li>
+<li class="links"><a href="#slide">Slide View</a></li>  
+</ul>  
+<div class="container"  >
+<section id="home">
+<img id="st" src="https://graphicriver.img.customer.envatousercontent.com/files/299656252/Various%20kinds%20of%20cartoon%20flowers%20-%20PREVIEW.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=c414bf357784a112b24f0d939e6cfaaa">  
+</section>  
+<section id="grid">
+<h2>Grid Gallery</h2>
+<br>
+<br>
+<div><span>
+<img id="red" src="https://d384u2mq2suvbq.cloudfront.net/public/spree/products/2269/original/Red-Rose.jpg?1593546171">
+<img id="purple" src="https://www.gardenia.net/storage/app/public/uploads/images/pYXVfQVvUnEbqYSXMPAoFwtE208UkXoX0y2WpCUA.jpeg">
+<img id="yellow" src="https://www.johnnyseeds.com/dw/image/v2/BBBW_PRD/on/demandware.static/-/Sites-jss-master/default/dw26c3bf34/images/products/flowers/01712_01_procutorange.jpg?sw=387&cx=302&cy=0&cw=1196&ch=1196">
+</span>
+<span>
+ <img id="blue" src="https://www.treehugger.com/thmb/4hjYcNF5SHmmFx2t-Gl84OQbqpw=/1000x562/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2017__07__blue_hydrangea-0750eb1868c7465790d3c7c3f1c5f7ca.jpg">
+<img id="orange" src="https://www.gardenia.net/storage/app/public/uploads/images/detail/shutterstock_616570262Optimized.jpg">
+<img id="pink" src="https://media.istockphoto.com/photos/beautiful-pink-flowers-blooming-in-the-spring-in-the-city-picture-id948448304">
+</span>    
+</div>
+</div>
+</section>
+
+    <section id="slide">
+        <h2>Sliding gallery</h2>
+       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+     <!-- Wrapper for slides -->
+     <div class="carousel-inner">
+ 
+       <div class="item">
+         <img class="img-responsive" src="https://www.treehugger.com/thmb/4hjYcNF5SHmmFx2t-Gl84OQbqpw=/1000x562/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2017__07__blue_hydrangea-0750eb1868c7465790d3c7c3f1c5f7ca.jpg" alt="Blue" style="width:100%;">
+         <div class="carousel-caption">
+           <h3>Blue Hydrangeas</h3>
+           <p></p>
+         </div>
+       </div>
+ 
+       <div class="item active">
+         <img class="img-responsive" src="https://www.gardenia.net/storage/app/public/uploads/images/detail/shutterstock_616570262Optimized.jpg" alt="Orange" style="width:100%;">
+         <div class="carousel-caption">
+           <h3>Orange Tulips</h3>
+           <p></p>
+         </div>
+       </div>
+     
+       <div class="item">
+         <img class="img-responsive" src="https://media.istockphoto.com/photos/beautiful-pink-flowers-blooming-in-the-spring-in-the-city-picture-id948448304" alt="Pink" style="width:100%;">
+         <div class="carousel-caption">
+           <h3>Pink Cherry Blossoms</h3>
+           <p></p>
+         </div>
+       </div>
+          <div class="item">
+         <img class="img-responsive" src="https://d384u2mq2suvbq.cloudfront.net/public/spree/products/2269/original/Red-Rose.jpg?1593546171" alt="Red" style="width:100%;" >
+         <div class="carousel-caption">
+           <h3>Red Rose</h3>
+           <p></p>
+         </div>
+       </div>
+          <div class="item">
+         <img class="img-responsive" src="https://www.gardenia.net/storage/app/public/uploads/images/pYXVfQVvUnEbqYSXMPAoFwtE208UkXoX0y2WpCUA.jpeg" alt="Purple" style="width:100%;">
+         <div class="carousel-caption">
+           <h3>Purple Lavenders</h3>
+           <p></p>
+         </div>
+       </div>
+          <div class="item">
+         <img class="img-responsive" src="https://www.johnnyseeds.com/dw/image/v2/BBBW_PRD/on/demandware.static/-/Sites-jss-master/default/dw26c3bf34/images/products/flowers/01712_01_procutorange.jpg?sw=387&cx=302&cy=0&cw=1196&ch=1196" alt="Yellow" style="width:100%;" >
+         <div class="carousel-caption">
+           <h3>Yellow Sunflowers</h3>
+           <p></p>
+         </div>
+       </div>
+     </div>
+ 
+     <!-- Left and right controls -->
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+       <span class="glyphicon glyphicon-chevron-left"></span>
+       <span class="sr-only">Previous</span>
+     </a>
+     <a class="right carousel-control" href="#myCarousel" data-slide="next">
+       <span class="glyphicon glyphicon-chevron-right"></span>
+       <span class="sr-only">Next</span>
+     </a>
+   </div>
+    </section>
+    </body>
+ 
+ 
+ </div>
+ 
+    
+
+</section>
+</body>
+</html>
